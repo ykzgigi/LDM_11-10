@@ -1,0 +1,35 @@
+/* Estilo celular*/
+@media(max-width:600px){
+    body{
+        background-color: rgba(241, 222, 82, 0.708);
+    }
+        header h1 {
+            font-size: 12px;
+        }
+        section img {
+            width: 100%;
+        }
+    }
+    
+
+/* Estilo Tablets*/
+@media (min-width: 601px) and (max-width: 900px) {
+    section img {
+        width: 50%;
+    }
+    body {
+        background-color: blue;
+    }
+}
+
+
+/*Estilo telas grandes*/
+@media (min-width: 901px) {
+    section img {
+        width: 30%;
+    }
+    body {
+        background-color: red;
+    }
+}
+
